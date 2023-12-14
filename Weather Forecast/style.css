@@ -1,12 +1,17 @@
-
 body {
-    background-color: skyblue;
-  }
-  .container {
-    margin-top: 50px;
-  }
-
-  text{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-  }
+      background-color: #f8f9fa;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    header, footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+    }
+    footer {
+      bottom: 0;
+    }
